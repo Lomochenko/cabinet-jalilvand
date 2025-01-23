@@ -6587,16 +6587,16 @@ body:not(.tt-magic-cursor) .social-buttons > ul > li a:hover {
 	cursor: pointer;
 }
 
-.tt-ac-head {
+/* .tt-ac-head {
 	padding: 20px 13% 20px 0;
-}
+} */
 .tt-accordion-item:first-child .tt-ac-head {
 	padding-top: 0;
 }
 
 .tt-ac-head-title {
 	margin: 0;
-	padding-right: 13%;
+	padding-left: 13%;
 	font-size: 32px;
 	font-weight: bold;
 	font-weight: 600;
@@ -6626,7 +6626,7 @@ body:not(.tt-magic-cursor) .social-buttons > ul > li a:hover {
 .tt-accordion-caret-wrap {
 	position: absolute;
 	top: 50%;
-	right: 0;
+	left: 0;
 	transform: translate3d(0, -50%, 0);
 }
 .tt-accordion-caret-inner {
