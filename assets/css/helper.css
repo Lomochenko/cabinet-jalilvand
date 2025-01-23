@@ -15049,6 +15049,8 @@ body.tt-boxed .tt-wrap .tt-row {
 .vertically-center {
 	position: absolute !important;
 	top: 0 !important;
+	/* transform: translateY(-50%) !important;
+	transform: translateX(-50%) !important; */
 }
 
 /* Breakpoints 

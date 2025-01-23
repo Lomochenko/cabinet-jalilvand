@@ -649,6 +649,7 @@ body.tt-magic-cursor #magic-cursor {
 .text-right{
 	text-align: right;
 }
+
 /* ------------------------------------------------------------- *
  * tt-Headings (custom headings)
 /* ------------------------------------------------------------- */
@@ -4651,7 +4652,7 @@ body:not(.tt-magic-cursor) .tt-ps-nav-arrow:hover {
 }
 @media (max-width: 1024px) {
 	.tt-portfolio-carousel .swiper-slide {
-		height: calc(100vh - 60px);
+		height: calc(100vh - 400px);
 	}
 }
 
