@@ -6439,7 +6439,7 @@ body:not(.is-mobile) .tt-btn:hover .tt-btn-line {
 
 /* Scrolling button text (Note: If you change the scrolling button text, you probably need to adjust this CSS so that your text fits correctly!) */
 .scr-btn-text { 
-	font-size: 41px;
+	font-size: 43.1px;
 	font-weight: bold;
 	font-weight: 700;
 	text-transform: uppercase;
