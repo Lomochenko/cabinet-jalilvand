@@ -1221,7 +1221,7 @@
 
 			// Data attributes
 			// ================
-			var $dataMousewheel = $ttPortfolioCarousel.data("mousewheel");
+			// var $dataMousewheel = $ttPortfolioCarousel.data("mousewheel");
 			var $dataKeyboard = $ttPortfolioCarousel.data("keyboard");
 			var $dataSimulateTouch = $ttPortfolioCarousel.data("simulate-touch");
 			var $dataGrabCursor = $ttPortfolioCarousel.data("grab-cursor");
@@ -1256,7 +1256,7 @@
 				preventInteractionOnTransition: false, // No actions during transition
 				speed: 900, // Slider speed for smaller screens (when window width is 1024px or smaller)
 				keyboard: $dataKeyboard,
-				mousewheel: $dataMousewheel,
+				// mousewheel: $dataMousewheel,
 				autoplay: $dataAutoplay,
 				simulateTouch: $dataSimulateTouch,
 				grabCursor: $dataGrabCursor,
