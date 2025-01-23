@@ -1953,7 +1953,7 @@ body:not(.tt-boxed) .page-header-inner,
 }
 
 /* Page header image cover opasity */
-[class*="ph-image-cover-"] .ph-image-inner::before {
+/* [class*="ph-image-cover-"] .ph-image-inner::before {
 	position: absolute;
 	display: block;
 	content: "";
@@ -1964,7 +1964,7 @@ body:not(.tt-boxed) .page-header-inner,
 	background-color: #040404;
 	z-index: 1;
 	opacity: 0;
-}
+} */
 .ph-image-cover-0 .ph-image-inner::before { opacity: 0; }
 .ph-image-cover-0-5 .ph-image-inner::before { opacity: .05; }
 .ph-image-cover-1 .ph-image-inner::before { opacity: .1; }
