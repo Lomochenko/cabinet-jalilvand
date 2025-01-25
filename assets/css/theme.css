@@ -7209,7 +7209,7 @@ input[type=range] {
 
 .tt-ci-icon {
 	display: inline-block;
-	margin-right: 10px;
+	margin-left: 10px;
 	font-size: 80%;
 }
 .tt-contact-info a {
