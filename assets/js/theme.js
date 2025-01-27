@@ -1924,7 +1924,7 @@
 				tlPhParallax.to(".ph-categories", { y: -220 }, 0);
 			}
 			if ($(".ph-caption-subtitle").length) {
-				tlPhParallax.to(".ph-caption-subtitle", { y: -230 }, 0);
+				tlPhParallax.to(".ph-caption-subtitle", { y: -200 }, 0);
 			}
 			if ($(".ph-caption-title").length) {
 				tlPhParallax.to(".ph-caption-title", { y: -180 }, 0);

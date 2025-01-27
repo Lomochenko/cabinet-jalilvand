@@ -2082,7 +2082,7 @@ body:not(.tt-boxed) .page-header-inner,
 /* page header caption subtitle */
 .ph-caption-subtitle {
 	position: relative;
-	margin-bottom: 20px;
+	/* margin-bottom: 20px; */
 	font-size: calc(15px + 0.3vw);
 	font-weight: 500;
 	color: #CCC;
