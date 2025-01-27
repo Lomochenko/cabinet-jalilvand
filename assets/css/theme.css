@@ -9313,7 +9313,7 @@ body.tt-np-image-on .tt-next-project.tt-np-image-is-light .tt-np-subtitle {
 	align-items: center;
 	justify-content: center;
 	top: 30%;
-	right: 0;
+	left: 0;
 	width: 40px;
 	height: 35px;
 	background-color: #444;
@@ -9321,7 +9321,7 @@ body.tt-np-image-on .tt-next-project.tt-np-image-is-light .tt-np-subtitle {
 	color: #FFF;
 	cursor: pointer;
 	z-index: 999;
-	border-radius: 50px 0 0 50px;
+	border-radius: 0 50px 50px 0;
 	transition: all .2s;
 }
 @media (max-width: 540px) {
