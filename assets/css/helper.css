@@ -31,6 +31,7 @@
 * Borders classes
 * Paddings classes
 * Margin classes
+* Word wrap classes
 * Grid system (similar logic to the Bootstrap framework).
 */
 
@@ -9613,7 +9614,12 @@ a.link-pink:hover {
 	margin-right: 200px !important;
 }
 
-
+/* ------------------------------------------------------------- *
+ * Word wrap classes
+/* ------------------------------------------------------------- */
+.break-word {
+	word-wrap: break-word !important;
+}
 /* Margin (percent) 
 ===================== */
 .margin-1-p {

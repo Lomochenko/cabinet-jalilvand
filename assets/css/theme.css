@@ -3984,7 +3984,7 @@ body.tt-boxed .tt-wrap .portfolio-interactive {
 }
 
 /* Portfolio interactive item counter */
-.portfolio-interactive {
+/* .portfolio-interactive {
 	counter-reset: pi-item-counter;
 }
 .pi-item-title-link::before {
@@ -4004,7 +4004,7 @@ body.tt-boxed .tt-wrap .portfolio-interactive {
 	.pi-item-title-link::before {
 		right: 0;
 	}
-}
+} */
 
 /* Portfolio interactive item title */
 .pi-item-title,
@@ -4015,7 +4015,7 @@ body.tt-boxed .tt-wrap .portfolio-interactive {
 	font-size: clamp(28px, 5vw, 82px);
 	font-weight: 600;
 	color: #EEE;
-	line-height: 1.2;
+	/* line-height: 1.2; */
 	transform: translate3d(0, 0, 0);
 	transition: transform 0.4s cubic-bezier(0.51, 0.57, 0.17, 1), opacity 0.4s ease;
 
@@ -4154,7 +4154,7 @@ video.pi-item-video {
 		position: absolute;
 		content: "/";
 		top: 47%;
-		right: 15px;
+		left: -23px;
 		line-height: 1;
 		font-size: calc(12px + 1.3vw);
 		font-weight: 500;
@@ -4173,11 +4173,11 @@ video.pi-item-video {
 		font-size: clamp(28px, 3vw, 48px);
 		font-weight: 600;
 	}
-	.portfolio-interactive.pi-inline .pi-item-title-link::before {
+	/* .portfolio-interactive.pi-inline .pi-item-title-link::before {
 		top: 8px;
 		right: 55px;
 		font-size: calc(11px + 0.2vw);
-	}
+	} */
 
 	.portfolio-interactive.pi-inline .pi-item-category {
 		font-size: calc(11px + 0.1vw);
@@ -4187,9 +4187,9 @@ video.pi-item-video {
 		.portfolio-interactive.pi-inline .pi-item-title-link {
 			padding: 25px 40px 30px 0;
 		}
-		.portfolio-interactive.pi-inline .pi-item-title-link::before {
+		/* .portfolio-interactive.pi-inline .pi-item-title-link::before {
 			right: 45px;
-		}
+		} */
 	}
 
 	.portfolio-interactive.pi-inline .pi-item-image-inner {
@@ -4211,9 +4211,9 @@ video.pi-item-video {
 .portfolio-interactive.pi-center .pi-item-title-link {
 	padding-bottom: 0;
 }
-.portfolio-interactive.pi-center .pi-item-title-link::before {
+/* .portfolio-interactive.pi-center .pi-item-title-link::before {
 	display: none;
-}
+} */
 .portfolio-interactive.pi-center .pi-item-title-link-inner {
 	max-width: 100%;
 }
@@ -6239,7 +6239,7 @@ button {
 /* Button full width */
 .tt-btn-full {
 	display: flex;
-	width: 100%;
+	width: fit-content;
 	text-align: center;
 }
 
