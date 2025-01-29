@@ -6422,7 +6422,7 @@ body:not(.is-mobile) .tt-btn:hover .tt-btn-line {
 	display: block;
 	left: 50%;
 	top: 50%;
-	font-size: 18px;
+	font-size: 20px;
 	color: #999;
 	transform: translate(-50%, -50%);
 	transition: color .2s;
