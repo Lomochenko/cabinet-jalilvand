@@ -1707,7 +1707,7 @@
 	});
 
 	// Filter
-	$(".ttgr-cat-list > a").on("click", function() {
+	$(".ttgr-cat-list a").on("click", function() {
 		var selector = $(this).attr("data-filter");
 		$container.isotope({
 			filter: selector
@@ -1722,7 +1722,7 @@
 	});
 
 	// Filter item active
-	var filterItemActive = $(".ttgr-cat-list > a");
+	var filterItemActive = $(".ttgr-cat-list a");
 	filterItemActive.on("click", function(){
 		var $this = $(this);
 		if ( !$this.hasClass("active")) {
