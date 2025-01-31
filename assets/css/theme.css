@@ -1546,7 +1546,7 @@ body:not(.tt-boxed) .tt-header-inner,
 
 .tt-ol-menu-ghost {
 	position: absolute;
-	left: 0;
+	left: 5%;
 	bottom: 5%;
 	font-size: 25.5vw;
 	font-weight: bold;
