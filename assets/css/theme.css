@@ -3739,14 +3739,14 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 	font-size: calc(16px + 3.5vw);
 	font-weight: bold;
 	font-weight: 600;
-	color: #111 !important;
+	color: inherit;
 	line-height: 1.2;
 }
 .pli-caption.pli-caption-front .pli-title {
 }
-.pli-caption.pli-caption-back .pli-title {
+/* .pli-caption.pli-caption-back .pli-title {
 	color: var(--tt-main-color);
-}
+} */
 
 .pli-categories-wrap {
 	position: relative;
@@ -4825,9 +4825,9 @@ video.tt-pci-video {
 		left: -1px;
 		z-index: 1;
 	}
-	.tt-pci-caption-back .tt-pci-title {
+	/* .tt-pci-caption-back .tt-pci-title {
 		color: var(--tt-main-color);
-	}
+	} */
 }
 @media (max-width: 1024px) {
 	.tt-pci-caption {
