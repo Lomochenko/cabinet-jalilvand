@@ -4948,6 +4948,11 @@ video.tt-pci-video {
 		width: 90%;
 	}
 }
+@media (min-width: 767px) {
+	.tt-pc-navigation {
+		bottom: -70px;
+	}
+}
 
 .tt-pc-nav-prev,
 .tt-pc-nav-next {
