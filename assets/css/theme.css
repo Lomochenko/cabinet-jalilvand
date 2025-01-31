@@ -3737,7 +3737,7 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 	font-size: calc(16px + 3.5vw);
 	font-weight: bold;
 	font-weight: 600;
-	color: #FFF;
+	color: #111;
 	line-height: 1.2;
 }
 .pli-caption.pli-caption-front .pli-title {
