@@ -3861,7 +3861,7 @@ video.pgi-video {
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
-	font-size: calc(19px + 1.5vw);
+	font-size: calc(17px + 1.5vw);
 	font-weight: bold;
 	font-weight: 600;
 	color: #FFF;
