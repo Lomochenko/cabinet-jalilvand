@@ -3704,10 +3704,11 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 @media (min-width: 768px) {
 	.pli-caption {
 		position: absolute;
-		left: -15%;
+		left: -85%;
 		bottom: 15%;
 		width: 100%;
 		max-width: 600px;
+		text-align: center;
 	}
 	.pli-caption-front {
 		position: absolute;
@@ -3726,6 +3727,7 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 @media (max-width: 767px) {
 	.pli-caption-front {
 		margin-top: 20px;
+		text-align: center;
 	}
 	.pli-caption.pli-caption-back {
 		display: none;
@@ -3737,7 +3739,7 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 	font-size: calc(16px + 3.5vw);
 	font-weight: bold;
 	font-weight: 600;
-	color: #111;
+	color: #111 !important;
 	line-height: 1.2;
 }
 .pli-caption.pli-caption-front .pli-title {
@@ -3875,9 +3877,10 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 	.portfolio-list.pl-alter .portfolio-list-item:nth-child(odd) .pli-caption {
 		left: 85%;
 	}
-	.portfolio-list.pl-alter .portfolio-list-item:nth-child(odd) .pli-counter {
-		left: auto;
-		right: -30%;
+}
+@media (min-width: 2559px) {
+	.portfolio-list.pl-alter .portfolio-list-item:nth-child(odd) .pli-caption {
+		left: 100%;
 	}
 }
 
