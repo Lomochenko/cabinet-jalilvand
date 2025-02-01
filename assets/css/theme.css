@@ -2132,12 +2132,25 @@ body:not(.tt-boxed) .page-header-inner,
 	}
 }
 
+#page-header.ph-cap-lg .ph-caption-title{
+	text-align: right;
+}
+.ph-caption-subtitle .ph-appear{
+	text-align: right;
+}
 @media (max-width: 1024px) {
-
 	.ph-image,
 	#page-header.ph-full:not(.ph-center):not(.ph-bg-image) .ph-image {
-		right: 10vw;
+		right: 39vw;
 	}
+
+}
+@media (min-width: 1024px) {
+	.ph-image,
+	#page-header.ph-full:not(.ph-center):not(.ph-bg-image) .ph-image {
+		right: 45vw;
+	}
+
 }
 
 @media (max-width: 540px) {
