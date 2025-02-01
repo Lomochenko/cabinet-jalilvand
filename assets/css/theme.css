@@ -2579,8 +2579,7 @@ a.ph-category:hover {
 /* Scroll down for small screens */
 @media (max-width: 1024px) {
 	.tt-scroll-down {
-		bottom: 0%;
-		left: 6%;
+		display: none;
 	}
 
 	.tt-sd-text {
