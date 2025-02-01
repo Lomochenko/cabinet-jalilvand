@@ -5340,8 +5340,8 @@ video.tt-pci-video {
 .tt-pci-title {
 	margin: 0;
 	font-size: calc(16px + 2.8vw);
-	font-weight: bold;
-	font-weight: 600;
+	/* font-weight: bold; */
+	font-weight: 400;
 	color: #FFF;
 	line-height: 1.2;
 }
@@ -5416,7 +5416,7 @@ video.tt-pci-video {
 	} */
 }
 
-@media (min-width: 425px) and (max-width:1024px) {
+@media (min-width: 768px) and (max-width:1024px) {
 	.tt-pci-caption {
 		display: none;
 	}
@@ -5433,7 +5433,7 @@ video.tt-pci-video {
 	}
 
 	.tt-pci-caption {
-		bottom: -19%;
+		top: -22%;
 	}
 
 	.tt-pci-caption-back {
