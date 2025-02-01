@@ -115,10 +115,17 @@ p {
 	margin: 0 0 30px;
 }
 
+a:focus, a:active {
+    outline: none !important;
+    background-color: transparent !important;
+    color: inherit !important;
+}
+/*  */
 a {
 	color: currentColor;
 	text-decoration: none;
-	outline: none
+	outline: none;
+	-webkit-tap-highlight-color: transparent;
 }
 
 a:hover,
