@@ -363,7 +363,15 @@ body.ph-bg-image-on.tt-ph-visible:not(.tt-light-bg-on) .ph-share .social-buttons
 /* ------------------------------------------------------------- *
  * Portfolio carousel
 /* ------------------------------------------------------------- */
+.tt-pci-title{
+	color: #111;
+}
 
+@media (min-width: 768px) {
+	.tt-pci-title{
+		color: #FFF;
+	}
+}
 @media (min-width: 1025px) {
 	.tt-pci-caption-back .tt-pci-category {
 		color: #111;
