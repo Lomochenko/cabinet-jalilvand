@@ -2713,7 +2713,72 @@
 			tl_ttgrClose.to(".ttgr-cat-list > li", { clearProps: "all" }); // clearProps only
 		});
 	}
+	// On category trigger click.
+	$(".ttgr-cat-trigger").on("click", function () {
+		$("body").addClass("ttgr-cat-nav-open");
+		if ($("body").hasClass("ttgr-cat-nav-open")) {
 
+			gsap.to(".portfolio-grid-item", { duration: 0.3, scale: 0.9 });
+			gsap.to(".pgi-caption, #page-header, .ttgr-cat-trigger", { duration: 0.3, autoAlpha: 0 });
+
+			$(".ttgr-cat-nav").off("click");
+
+			var tl_ttgrIn = gsap.timeline({
+				onComplete: function () {
+					ttCatNavClose();
+				}
+			});
+			tl_ttgrIn.to(".ttgr-cat-nav", { duration: 0.3, autoAlpha: 1 });
+			tl_ttgrIn.from(".ttgr-cat-list > li", { duration: 0.3, y: 80, autoAlpha: 0, stagger: 0.05, ease: Power2.easeOut, clearProps: "all" });
+
+			// Handle close button separately
+			$(".ttgr-cat-close").off('click').on('click', function (e) {
+				e.preventDefault();
+				closeMenu();
+			});
+		}
+	});
+
+	// Modified filter code
+	$(".ttgr-cat-list a").on("click", function (e) {
+		e.preventDefault();
+		var selector = $(this).attr("data-filter");
+
+		// Update filter
+		$container.isotope({ filter: selector });
+
+		// Update active class
+		$(".ttgr-cat-list a").removeClass("active");
+		$(this).addClass("active");
+
+		// Close menu after filtering
+		closeMenu();
+
+		// Refresh ScrollTrigger
+		setTimeout(function () {
+			ScrollTrigger.refresh(true);
+		}, 500);
+	});
+
+	// Close menu function (same as before)
+	function closeMenu() {
+		$("body").removeClass("ttgr-cat-nav-open");
+		var tl_ttgrClose = gsap.timeline();
+		tl_ttgrClose.to(".ttgr-cat-list > li", { duration: 0.3, y: -80, autoAlpha: 0, stagger: 0.05, ease: Power2.easeIn });
+		tl_ttgrClose.to(".ttgr-cat-nav", { duration: 0.3, autoAlpha: 0, clearProps: "all" }, "+=0.2");
+		tl_ttgrClose.to(".portfolio-grid-item", { duration: 0.3, scale: 1, clearProps: "all" }, "-=0.4");
+		tl_ttgrClose.to(".pgi-caption, #page-header, .ttgr-cat-trigger", { duration: 0.3, autoAlpha: 1, clearProps: "all" }, "-=0.4");
+		tl_ttgrClose.to(".ttgr-cat-list > li", { clearProps: "all" });
+	}
+
+	// Handle clicks on nav background (same as before)
+	function ttCatNavClose() {
+		$(".ttgr-cat-nav").on("click", function (e) {
+			if (e.target === this) {
+				closeMenu();
+			}
+		});
+	}
 
 
 	// ================================================================
