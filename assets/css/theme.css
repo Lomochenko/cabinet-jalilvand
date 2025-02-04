@@ -4250,7 +4250,7 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 
 @media (max-width: 767px) {
 	.pli-category {
-		color: #999;
+		color: #000;
 	}
 }
 
