@@ -3082,9 +3082,9 @@ body.ttgr-cat-fixed-on .tt-grid-top {
 	color: #FFF;
 }
 
-body:not(.is-mobile) .ttgr-cat-close {
+/* body:not(.is-mobile) .ttgr-cat-close {
 	display: none;
-}
+} */
 
 
 /* tt-Grid items
