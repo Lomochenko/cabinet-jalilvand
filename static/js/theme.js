@@ -3075,7 +3075,7 @@
 
 	// Toggle light stylesheet
 	if ($("body").hasClass("tt-light-style-on")) {
-		$("head").append('<link id="tt-light-style" rel="stylesheet" href="assets/css/light-style.css">');
+		$("head").append('<link id="tt-light-style" rel="stylesheet" href="static/css/light-style.css">');
 	} else {
 		$("#tt-light-style").remove();
 	}
