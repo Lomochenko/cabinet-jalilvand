@@ -5574,7 +5574,7 @@ video.tt-pci-video {
 
 @media (min-width: 767px) {
 	.tt-pc-navigation {
-		bottom: -70px;
+		bottom: -100px;
 	}
 }
 
