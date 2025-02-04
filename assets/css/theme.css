@@ -5558,7 +5558,7 @@ video.tt-pci-video {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	bottom: 26px;
+	bottom: 0;
 	left: 50%;
 	width: 340px;
 	height: 60px;
