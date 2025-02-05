@@ -2234,7 +2234,7 @@
 				markers: false,
 			}
 		});
-		tl_aipZoomIn.from($aipInner, { duration: 1.5, autoAlpha: 0, scale: 1.2, ease: Power2.easeOut, clearProps: "all" });
+		tl_aipZoomIn.from($aipInner, { duration: 1.5, autoAlpha: 0, scale: 1.3, ease: Power2.easeOut, clearProps: "all" });
 
 	});
 

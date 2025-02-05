@@ -180,7 +180,7 @@ hr {
 }
 
 .anim-image-parallax {
-	transform: scale(1.2);
+	transform: scale(1);
 	transform-origin: 50% 100%;
 }
 
@@ -2935,10 +2935,10 @@ body:not(.is-mobile) .ttgr-cat-text>span::before {
 	}
 }
 
-body.ttgr-cat-nav-open .pgi-image.anim-image-parallax,
+/* body.ttgr-cat-nav-open .pgi-image.anim-image-parallax,
 body.ttgr-cat-nav-open .pgi-video-wrap.anim-image-parallax {
 	transition: transform 0.8s ease-in-out;
-}
+} */
 
 /* tt-Ggrid categories trigger position fixed */
 .ttgr-cat-trigger-wrap.ttgr-cat-fixed {
