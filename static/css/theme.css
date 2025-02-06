@@ -3895,15 +3895,19 @@ video.pgi-video {
 
 /* Portfolio grid item title */
 .pgi-title {
-	margin: 0;
+	margin: 0 0 0 auto;
+	padding: 3px 5px;
 	overflow: hidden;
 	white-space: nowrap;
 	text-overflow: ellipsis;
 	font-size: calc(17px + 1.5vw);
 	font-weight: bold;
-	font-weight: 600;
+	font-weight: 300;
 	color: #FFF;
 	line-height: 1.5;
+	background-color: rgba(0, 0, 0, 0.080);
+	width: fit-content;
+	border-radius: 3px;
 }
 
 @media (max-width: 767px) {
