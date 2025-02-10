@@ -7464,7 +7464,7 @@ body:not(.tt-magic-cursor) .social-buttons>ul>li a:hover {
 	font-weight: bold;
 	font-weight: 600;
 	color: #CCC;
-	line-height: 1.2;
+	line-height: 1.4;
 	transition: color 0.3s;
 }
 
@@ -7475,7 +7475,7 @@ body:not(.tt-magic-cursor) .social-buttons>ul>li a:hover {
 
 @media (max-width: 991px) {
 	.tt-ac-head-title {
-		font-size: 28px;
+		font-size: 24px;
 	}
 }
 
