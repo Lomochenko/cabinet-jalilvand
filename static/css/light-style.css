@@ -491,7 +491,10 @@ body.pi-full-on:not(.page-header-on) .portfolio-interactive-ghost {
 
 .pli-caption-back .pli-category,
 .pli-counter::before {
-	color: #111;
+	color: #111 !important;
+}
+.pli-category{
+	color: #111 !important;
 }
 
 .pli-counter::before {
