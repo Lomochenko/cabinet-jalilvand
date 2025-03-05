@@ -4203,7 +4203,7 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 @media (min-width: 768px) {
 	.pli-caption {
 		position: absolute;
-		left: -85%;
+		left: -55%;
 		bottom: 15%;
 		width: 100%;
 		max-width: 600px;
@@ -4398,7 +4398,7 @@ body:not(.is-mobile) #portfolio-grid.pgi-cap-inside.pgi-cap-hover .portfolio-gri
 
 @media (min-width: 768px) {
 	.portfolio-list.pl-alter .portfolio-list-item:nth-child(odd) .pli-caption {
-		left: 85%;
+		left: 65%;
 	}
 }
 
